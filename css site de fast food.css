@@ -1,0 +1,38 @@
+body{
+    background-color: orange;
+    margin: 0% auto;
+    font-family: 'League Gothic', sans-serif;
+}
+header{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+div.slides{
+    display: flex;
+    animation: glisse 15s infinite ease;
+}
+img{
+    width: 380px ;
+}
+
+@keyframes glisse {
+  0%{
+    transform: translateX(0);
+  }
+  10%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-1400px);
+}
+66%{
+    transform: translateX(-1400px);
+}
+100%{
+    transform: translateX(0);
+}
+}
